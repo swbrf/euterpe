@@ -1,2 +1,3 @@
 # Project exclude paths
-/euterpe-tts/target/
+.idea/
+euterpe-parent.iml
