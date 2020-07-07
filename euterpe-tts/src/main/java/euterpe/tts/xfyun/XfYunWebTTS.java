@@ -36,13 +36,42 @@ public class XfYunWebTTS {
 
     public static final DateTimeFormatter VERIFY_DATE_FORMAT = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss z", Locale.US);
 
-    public static final String textContent = "高山上气候寒冷，若雪层表面没有融化或者融化很微弱，雪层中就缺少液态水，雪颗粒之间就像沙子一样疏松。当雪层越来越厚，坡度较大时雪就会流动。如果有一处雪层流动，周围的雪层也会被带着一起流动，进而发生雪层坍塌，向下坡方向快速奔流，这就是我们所说的雪崩。可以说，发生雪崩的条件是坡度、疏松雪层和诱发力。\n" +
+    public static final String textContent = "【雾霾天】\n" +
+            "雾霾（mái）天是指空气中因悬浮着大量微粒而形成的混浊形象。" +
+            "【雾霾天危害】\n" +
+            "雾霾天气易诱发疾病，雾霾天气极易引发上呼吸道感染及皮肤过敏等多种疾病。包括咳嗽、打喷嚏、脸部红肿等。\n" +
             "\n" +
-            "坡度越大、雪层越疏松，就越容易发生雪崩。雪层厚度不断增加使得疏松雪层上面承受的压力增加，这是一种诱发力。但是，当疏松雪层所承受的压力达到即将触发雪崩而又不再增加时，外界的微小力量就可诱发雪崩暴发，如人畜禽兽的踩踏、岩石崩落、声响震动等。在雪崩临界情况下，人大声说话或咳嗽都会诱发灾难。由此可以知道，易发生大雪崩的地方往往是山坡比较陡、雪层比较厚的地方，但太陡的山坡因为积存不住雪，经常是基岩裸露。\n" +
+            "【雾霾天出行应注意什么呢】\n" +
+            "1、外出戴口罩　　\n" +
             "\n" +
-            "雪崩是高寒山区常见的一种冰雪灾害，会对在雪崩区活动的人和动物带来伤害。但是，由于雪崩与地形关系密切，一般某个山区有无雪崩发生，可以根据地形条件和降雪情况大致判断出来，以便采取预防和应对措施，避免损失。"
-
-            ;
+            "文献记载医用口罩对0.3微米的颗粒能挡住95%。选择口罩要买正规合格的，同时要戴一下，买与自己脸型大小匹配的型号，要最大程度地贴紧皮肤，让污染颗粒不能进入。口罩不能洗，取下后，要等里面干燥后再对折收起来，以免呼吸的潮气让口罩滋生细菌。老年人和有心血管疾病的人要避免佩戴，因为其为专业抗病毒气溶胶口罩，密闭性好，戴上后容易呼吸困难，缺氧而感到头昏。　　\n" +
+            "\n" +
+            "2、外出尽量别骑车\n" +
+            "\n" +
+            "汽车尾气里有很多没有完全燃烧透的化学成分，会随着空气里面细小颗粒漂浮。当你骑单车或电动车时，身体需要供氧，肺就会吸入大量空气。雾霾可以暂时减少晨练，尽量选择在10—14时外出。同时，要多喝水，少吸烟并远离“二手烟”，减轻肺、肝等器官的负担。习惯骑单车、电动车上班或出门办事的人，尽量避开早晚交通拥挤的高峰时段，尽量改换搭乘公交车。　" +
+            "\n" +
+            "【雾霾天个人卫生】\n" +
+            "1、洗脸\n" +
+            "\n" +
+            "洗脸最好用温水，可以将附着在皮肤上的阴霾颗粒有效清洁干净;\n" +
+            "2、漱口\n" +
+            "\n" +
+            "漱口的目的是清除附着在口腔的脏东西;\n" +
+            "\n" +
+            "3、清理鼻腔\n" +
+            "\n" +
+            "清理鼻腔是最关键的。清理鼻腔时，一定要轻轻吸水，避免呛咳。家长在给儿童清理鼻腔时，可以用干净棉签蘸水，反复清洗。" +
+            "\n" +
+            "【雾霾天常规防护】\n" +
+            "1、少出门\n" +
+            "\n" +
+            "这种天气，减少出门是自我保护最有效的办法，尤其是有心脑血管、呼吸系统疾病的人群，更要尽量少出门。　　根据该研究，在排除了年龄、性别、时间效应和气象因素等影响因素之后，当雾浓度每增加103微克/立方米时，居民全部死因的超额死亡风险会增加2.29%，滞后时间在1—2天。心脑血管疾病增加的超额死亡风险更高，为3.08%。\n" +
+            "\n" +
+            " 2、尽量不要开窗　　\n" +
+            "\n" +
+            "在大雾天气升级的情况下尽量不要开窗;确实需要开窗透气的话，开窗时应尽量避开早晚雾霾高峰时段，可以将窗户打开一条缝通风，不让风直接吹进来，通风时间每次以半小时至一小时为宜。家中以空调取暖的居民，尤其要注意开窗透气，确保室内氧气充足。\n" +
+            "\n" +
+            "雾霾天气是疾病的温床，在雾霾天时应尽量减少出行，并且做好个人卫生等防护工作。";
 
     public void test() {
         String dateStr = getVerifyDateStr();
@@ -51,7 +80,6 @@ public class XfYunWebTTS {
         String authorization = getAuthorization(apiKey, signature, StandardCharsets.UTF_8);
         String authUrl = getV2AuthUrl(XFYUN_TTS_API_HOST, XFYUN_TTS_API_PATH_V2, dateStr, authorization);
         Request request = new Request.Builder().url(authUrl).build();
-        System.out.println("11111111");
         List<String> contentList = getContentList();
         contentList.forEach(t -> {
             generate(request, t);
@@ -102,7 +130,7 @@ public class XfYunWebTTS {
         WebSocket webSocket = client.newWebSocket(request, new XfYunTtsSocketListener(content));
         System.out.println(content);
         try {
-            Thread.sleep(1000*10);
+            Thread.sleep(1000 * 10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

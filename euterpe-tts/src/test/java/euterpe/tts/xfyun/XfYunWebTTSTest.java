@@ -55,6 +55,6 @@ public class XfYunWebTTSTest {
     public void test() throws InterruptedException {
         XfYunWebTTS webTTS = new XfYunWebTTS();
         webTTS.test();
-        Thread.sleep(1000*60*60*24);
+        Thread.sleep(1000 * 60 * 60 * 24);
     }
 }

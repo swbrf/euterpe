@@ -122,15 +122,18 @@ public class XfYunTtsSocketListener extends WebSocketListener {
             }
         }
     }
+
     @Override
     public void onMessage(WebSocket webSocket, ByteString bytes) {
         super.onMessage(webSocket, bytes);
     }
+
     @Override
     public void onClosing(WebSocket webSocket, int code, String reason) {
         super.onClosing(webSocket, code, reason);
         System.out.println("socket closing");
     }
+
     @Override
     public void onClosed(WebSocket webSocket, int code, String reason) {
         super.onClosed(webSocket, code, reason);
@@ -152,15 +155,19 @@ public class XfYunTtsSocketListener extends WebSocketListener {
         private String message;
         private String sid;
         private Data data;
+
         public int getCode() {
             return code;
         }
+
         public String getMessage() {
             return this.message;
         }
+
         public String getSid() {
             return sid;
         }
+
         public Data getData() {
             return data;
         }
