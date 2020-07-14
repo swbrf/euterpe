@@ -1,7 +1,5 @@
-package euterpe.po;
+package euterpe.db.knowledge.po;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.io.Serializable;

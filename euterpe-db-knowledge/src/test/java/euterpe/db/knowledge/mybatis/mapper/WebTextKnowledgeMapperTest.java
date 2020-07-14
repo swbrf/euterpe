@@ -1,6 +1,6 @@
-package euterpe.mybatis.mapper;
+package euterpe.db.knowledge.mybatis.mapper;
 
-import euterpe.po.WebTextKnowledge;
+import euterpe.db.knowledge.po.WebTextKnowledge;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
